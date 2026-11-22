@@ -1,0 +1,25 @@
+{
+  "name": "ai-output-evaluator",
+  "version": "1.1.0",
+  "description": "A TypeScript tool for evaluating AI-generated responses using rule-based validation.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "node --require ts-node/register --test tests/evaluator.test.ts"
+  },
+  "keywords": [
+    "typescript",
+    "ai-evaluation",
+    "ai-testing",
+    "quality-assurance"
+  ],
+  "author": "Rwittika Chowdhury",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^25.9.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}
